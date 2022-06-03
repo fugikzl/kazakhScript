@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        padding:0 0;
+        margin: 0 auto;
+    }
+    .cove{
+        display: grid ;
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: minmax(3vw auto);
+
+    }
+</style>
+<body>
+    <div class="cove" style="width:100vw; height:38vw; background-color: aqua;">
+        <div>Javascript</div>
+        <div>Kazakhscript</div>
+
+        <textarea id="jstokazakh" style="width:50vw; height:35vw; margin-top:3vw"></textarea>
+        <textarea id="kazakh" style="width:50vw; height:35vw; margin-top:3vw"></textarea>
+
+    </div>
+    
+</body>
+<script src="./kazakhLib.js"></script>
+<script src="./converter.js"></script>
+</html>
